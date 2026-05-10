@@ -20,6 +20,9 @@ on:
     # UTC 20:17 避开了整点高峰，周六相对周日更空闲
     - cron: '17 20 * * 0'
 
+permissions:
+  contents: write
+
 env:
   # ========== 源码相关配置 ==========
   REPO_URL: https://github.com/coolsnowwolf/lede   # OpenWrt 源码仓库地址，这里使用的是 Lean's LEDE 源
