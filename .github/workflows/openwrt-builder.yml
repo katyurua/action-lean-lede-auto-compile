@@ -45,7 +45,7 @@ env:
 
 jobs:
   build:                           # 唯一作业：编译
-    runs-on: ubuntu-24.04          # 使用 Ubuntu 24.04 虚拟环境
+    runs-on: ubuntu-22.04          # 使用 Ubuntu 22.04 虚拟环境
 
     steps:
     # Step 1: 检出仓库代码（包含配置文件与自定义脚本）
